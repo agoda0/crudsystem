@@ -1,0 +1,67 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: block;
+    /* background-color: #1d9feb; */
+    padding: 20px;
+}
+main label{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+main input, main textarea{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+main textarea{
+    resize: none;
+}
+button{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+tr{
+    border-bottom: 1px solid #000;
+}
+
+#nameAlert, #priceAlert, #categoryAlert,#descAlert {
+    width: 100%;
+    background-color: #f8d7da;
+    border: 1px solid #842029;
+    color: #842029;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.d-none{
+    display: none;
+}
+.is-wrong{
+    border: 1px solid #842029;
+    outline: 1px solid #842029;
+}
+.is-wright{
+    border: 1px solid #7cf01d;
+    outline: 1px solid #7cf01d;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="inputs">
+            <label>Product name</label>
+            <input id="productName" class="form-input" type="text">
+            <div class="d-none" id="nameAlert"> Name Should Be Start With Capital .... </div>
+            
+            <label>Product Price</label>
+            <input id="productPrice" class="form-input" type="text">
+            <div class="d-none" id="priceAlert"> Price Should Not Be Less Than 100000 And Not Starts With Zero .... </div>
+           
+            <label>Product Category</label>
+            <input id="productCategory" class="form-input" type="text">
+            <div class="d-none" id="categoryAlert"> Category Should Be Start With Capital .... </div>
+            
+            <label>Product Description</label>
+            <textarea id="productDesc" class="form-input"></textarea>
+            <div class="d-none" id="descAlert"> Maxmum Description Is 20 Letter .... </div>
+            
+            <button id="addBtn" disabled >Add</button>
+
+            <input id="productSearch" class="form-input" placeholder="Search By Name">
+        </div>
+        <div class="display">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
